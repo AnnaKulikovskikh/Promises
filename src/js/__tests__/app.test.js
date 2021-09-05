@@ -1,4 +1,4 @@
-import GameSavingLoader from '../app';
+import GameSavingLoader from '../GameSavingLoader';
 
 test('saving', (done) => {
   GameSavingLoader.load().then((saving) => {

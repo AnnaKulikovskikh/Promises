@@ -1,12 +1,3 @@
-// TODO: write your code here
-import read from './reader';
-import json from './parse';
+import GameSavingLoader from './app';
 
-export default class GameSavingLoader {
-  static load() {
-    return read().then(
-      (data) => json(data),
-      (error) => console.log(error),
-    );
-  }
-}
+console.log('123');
