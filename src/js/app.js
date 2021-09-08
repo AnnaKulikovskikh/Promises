@@ -1,5 +1,6 @@
-import read from './reader';
-import json from './parse';
-import GameSavingLoader from './app';
+import GameSavingLoader from './GameSavingLoader';
 
-console.log('123');
+GameSavingLoader.load().then(
+  (saving) => console.log(saving),
+  (error) => console.log(error),
+);
